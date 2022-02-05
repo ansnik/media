@@ -1,0 +1,397 @@
+*{
+
+	margin:0px;
+	padding:0px;
+	border:none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+	font-size: 16px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background:#ccff99;
+ 
+}
+.csstable{
+	font-family: verdana,arial,sans-serif;
+	color: #333333; 
+	border-width: 2px;
+	border-color: #49274A;
+	border-collapse: collapse;
+
+}
+
+
+
+h3 {
+
+	text-decoration: none;
+	color:black;
+
+}
+
+h2 {
+
+	text-decoration: none;
+	color:white;
+
+}
+
+.ha{
+
+	margin-left: 10%;
+	float:left;
+	color:white;
+
+}
+
+}
+
+a{   
+
+	text-decoration: none;
+
+}
+
+#header{
+	
+	width:100%;
+	max-width:1100px;
+	margin:0px auto auto;
+	min-height:1px;
+	padding:30px 20px;
+	
+}
+
+#header .des{
+	
+	display:inline-block;
+	color: #336600;
+	font-weight:600;
+	font-size:1.563em;
+	text-decoration:none;
+	text-transform:uppercase;
+	line-height:1em;
+}
+
+#header .des .bild{
+	
+	width: 90px;
+	height: 80px;
+	float:left;
+}
+#header .des .name{
+
+	margin-left: 20px;
+	float:left;
+	display:inline-block;
+	color:#336600;
+	font-weight:600;
+	font-size:1.563em;
+	text-decoration:none;
+	text-transform:uppercase;
+	line-height:1em;
+}
+
+#nav{
+	
+	width:100%;
+	background:#336600;
+	padding: 10px;
+	margin-bottom:20px;
+	
+}
+
+
+ul.nav{
+	
+	list-style-type:none;
+	overflow:hidden;
+	
+}
+
+ul.nav li{
+	
+	float:left;
+	margin:0px 5px;
+	
+}
+
+ul.nav li a{
+	
+	color:#fff;
+	font-weight:600;
+	text-decoration:none;
+	font-size:0.9em;
+	padding:8px 15px;
+	text-transform:uppercase;
+	display:block;
+	
+}
+.hei{
+	    border-radius: 5px;
+    background: rgba(0,0,0,0);
+    padding: 20px;
+}
+#sidebar{
+    display: block;
+}
+.haloo{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    background: #336600;
+    color: #ccff99;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+}
+#con{
+	color:#336600;
+	
+}
+
+.foto {
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+}
+.leb {
+	float: right;
+	width: 69%;
+	margin-right: 3%;
+	margin-top: 4%;
+}
+
+       
+	
+#content{
+	
+	width:100%;
+	min-height:1px;
+	font-size:0.9em;
+	color:#336600;
+	
+}
+#hei p{
+	border: 5px solid #336600;
+	border-radius: 5px;
+    	width: 100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+#content p{
+	
+	margin-bottom:1em;
+	
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+
+
+
+#content h1{
+	
+	font-size:1.3em;
+	font-weight:600;
+	margin-bottom:10px;
+	text-transform: uppercase;
+	
+}
+
+#content img{
+	
+	width:250px;
+	height:auto;
+	float:left;
+	vertical-align:top;
+	margin:5px 15px 0px 0px;
+	
+}
+
+
+
+#con{
+	
+	width:100%;
+	min-height:1px;
+	font-size:0.9em;
+	color:#336600;
+	max-width:1100px;
+	min-height:1px;
+	padding:20px 0px;
+	margin:0px auto 40px auto;
+
+
+	
+}
+
+#con p{
+	
+	margin-bottom:1em;
+	float:left;
+	width:100%;
+	color:#336600;
+	
+}
+
+#con i{
+	
+	margin-bottom:1em;
+	width:100%;
+	color:#336600;
+	
+}
+
+#con h1{
+	
+	font-size:1.3em;
+	font-weight:300;
+	margin-bottom:15px;
+	text-decoration: bold;
+	color:#336600;
+}
+
+#con ul{
+	float:left;
+	padding-left:25px;
+	width:100%;
+}
+
+
+#footer{
+	
+	width:100%;
+	float: left;
+	max-width:1090px;
+	min-height:1px;
+	padding:20px 20px 16px 20px;
+	background:#336600;
+	margin:0px auto auto;
+	font-size:0.9em;
+	color:#fff;
+	
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+}
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+textarea {
+    font-family: monospace;
+    border-color: rgb(169, 169, 169);
+}
+user agent stylesheet
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
